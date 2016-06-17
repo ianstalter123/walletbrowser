@@ -1,0 +1,33 @@
+.walletImage {
+	width:25%;
+}
+
+#top1 {
+	padding:50px;
+	text-align: center;
+	background: url('top.movies.background.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color:black;
+}
+
+.galleryItem {
+	width: 15%;
+}
+
+.posterImage {
+	max-width: 100%;
+	max-height:350px;
+	opacity: 1;
+	filter: alpha(opacity=40);
+}
+
+.posterImage:hover {
+	-webkit-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	transition: all 500ms ease;
+	opacity: 0.5;
+	filter: alpha(opacity=100);
+}
